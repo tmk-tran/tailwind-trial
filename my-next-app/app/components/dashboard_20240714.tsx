@@ -20,14 +20,14 @@ To read more about using these font, please visit the Next.js documentation:
 
 import React from "react";
 import Link from "next/link";
-import { Button } from "../ui/button";
+import { Button } from "./ui";
 import {
   DropdownMenu,
   DropdownMenuTrigger,
   DropdownMenuContent,
   DropdownMenuItem,
-} from "../ui/dropdown-menu";
-import { Card, CardHeader, CardTitle, CardContent } from "../ui/card";
+} from "./ui";
+import { Card, CardHeader, CardTitle, CardContent } from "./ui";
 
 export default function dashboard_20240714() {
   return (
